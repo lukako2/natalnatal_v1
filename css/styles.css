@@ -1,0 +1,150 @@
+body {
+  background-image: url(../imgs/webst-bg.gif);
+}
+
+.bg-body-tertiary {
+  background-color: rgb(255, 205, 222) !important;
+}
+
+* {
+  font-family: Dimbo;
+}
+
+@media screen and (max-width: 981px) {
+  main h1 {
+    font-size: 3rem !important;
+    padding: 3rem 0 !important;
+  }
+  .rowA img {
+    max-width: 70% !important;
+    padding: 2rem 0 !important;
+  }
+}
+@media screen and (max-width: 896px) {
+  .row img {
+    padding: 0.5rem !important;
+  }
+}
+@media screen and (max-width: 832px) {
+  #albm-cont {
+    padding: 1rem !important;
+  }
+  .carousel {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 523px) {
+  #natl-cont .btfl-container {
+    padding: 1rem !important;
+  }
+}
+@media screen and (max-width: 479px) {
+  #natl-cont {
+    padding: 1rem !important;
+    position: fixed !important;
+    bottom: 0;
+  }
+  .player {
+    padding-bottom: 23rem;
+  }
+  .btfl-container {
+    padding: 1rem !important;
+    position: fixed !important;
+    bottom: 0 !important;
+  }
+}
+@media screen and (max-width: 458px) {
+  .carousel {
+    width: 100% !important;
+  }
+}
+main {
+  text-align: center;
+}
+main .btfl-container {
+  background-image: url(../imgs/webst-placs.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+main h1 {
+  padding: 5rem 0;
+  font-size: 5rem;
+}
+main .container-fluid {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+main .container-fluid .row {
+  display: inline-block;
+  padding: 5rem 0;
+  background-color: rgb(255, 0, 255);
+}
+main .container-fluid .row img {
+  max-width: 30%;
+}
+main .natlNdLuk {
+  width: 100%;
+  background-color: rgb(255, 0, 111);
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .natlNdLuk .rowB {
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+main .natlNdLuk .rowB .cardB {
+  padding: 0;
+  margin: 0 3rem 3rem;
+}
+main .natlNdLuk .rowB .cardB img {
+  width: 100%;
+}
+main #albm-cont {
+  padding: 5rem;
+  background-color: rgba(255, 192, 203, 0.724);
+}
+main #albm-cont .carousel {
+  width: 90%;
+  margin: auto;
+}
+main #natl-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  background-color: pink;
+}
+main #natl-cont img {
+  width: 50%;
+}
+main #conTest {
+  width: 80%;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  left: 10%;
+}
+main .carousel .panel {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+main .player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+main .player iframe {
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

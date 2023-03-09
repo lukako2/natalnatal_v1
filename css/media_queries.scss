@@ -1,0 +1,67 @@
+@media screen and (max-width: 981px) {
+  main {
+    h1 {
+      font-size: 3rem !important;
+      padding: 3rem 0 !important;
+    }
+  }
+  .rowA {
+    img {
+      max-width: 70% !important;
+      padding: 2rem 0 !important;
+    }
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .row {
+    img {
+      padding: 0.5rem !important;
+    }
+  }
+}
+
+@media screen and (max-width: 832px) {
+  #albm-cont {
+    padding: 1rem !important;
+  }
+  .carousel {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 523px) {
+  #natl-cont .btfl-container {
+    padding: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #natl-cont{
+    padding: 1rem !important;
+    position: fixed !important;
+    bottom: 0;
+  }
+
+  .player{
+    padding-bottom: 23rem;
+  }
+
+  .btfl-container{
+    padding: 1rem !important;
+    position: fixed !important;
+    bottom: 0 !important;
+  }
+}
+
+@media screen and (max-width: 458px) {
+  .carousel {
+    width: 100% !important;
+  }
+}
+
+// @media screen and (max-width: 411px){
+//     #natl-cont{
+//         padding: 1rem 1rem 8rem 1rem !important;
+//     }
+// }
