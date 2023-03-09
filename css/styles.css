@@ -6,9 +6,16 @@ body {
   background-color: rgb(255, 205, 222) !important;
 }
 
+@font-face {
+  font-family: Dimbo;
+  src: url(../dimbo.zip);
+}
+
 * {
   font-family: Dimbo;
 }
+
+
 
 @media screen and (max-width: 981px) {
   main h1 {
